@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+        <title>Onigiri Maker</title>	
+    </head>
+    <body>
+        
+<!-- ongiri  -->
+     <div id="onigiri-container">   
+        <div id="choose-title">
+            <h1>choose your onigiri</h1>
+        </div>
+
+        <div id="onigiri">
+            <a class="tarako" href="#tarako">
+                <img src="assets/img/tarako.png" width="1400px">
+            </a>
+            
+            <div class="seaweedwrap-starter">
+                <img src="assets/img/seaweedwrap.png" width="1425px">
+            </div>
+            <div class="riceball-starter">
+                <img src="assets/img/riceball.png" width="400px">
+            </div>
+        </div>
+        
+<!-- item text -->
+        
+        <div id="tarako-recipe">
+            <div id="recipe">
+                <h1><u>recipe</u>:</h1>
+                <div class="recipe-list">-white rice</div>
+                <div class="recipe-list">-half tsp salt</div>
+                <div class="recipe-list">-roasted nori</div>
+                <div class="recipe-list">-topping</div>
+            </div>
+            <div id="instructions">
+                <h1><u>instructions</u>:</h1>
+                <div class="instruction-description"><p>Cook white rice, 
+                salt and wet hands to shape the ball, roast the nori over 
+                a flame, wrap the ball like a shirt collar, stuff topping in the openinig. </p>
+                </div>
+            </div>
+        </div>
+        
+<!-- selector items -->
+        
+   <!--     <div id="onigiri-spine">
+            <div id="topping-button1" class="topping-button">
+            <img src="assets/img/tarako-button.png" width="200px">
+            </div>
+            <div id="topping-button2" class="topping-button">
+            <img src="assets/img/unagi-button.png" width="200px">
+            </div>
+            <div id="topping-button3" class="topping-button">
+            <img src="assets/img/snowcrab-button.png" width="200px">
+            </div>
+            <div id="topping-button4" class="topping-button">
+            <img src="assets/img/tunasalad-button.png" width="200px">
+            </div>
+            <div id="topping-button5" class="topping-button">
+            <img src="assets/img/misobeef-button.png" width="200px">
+            </div>
+            <div id="topping-button6" class="topping-button">
+            <img src="assets/img/shrimp-button.png" width="200px">
+            </div>
+-->
+<!--
+         <div id="onigiri-spine">
+            <button onclick="tarakoButtonClicked()">
+            <img src="assets/img/tarako-button.png" width="200px">
+            </button>  
+            <button onclick="unagiButtonClicked()">
+            <img src="assets/img/unagi-button.png" width="200px">
+            </button>
+            <button onclick="crabButtonClicked()">
+            <img src="assets/img/snowcrab-button.png" width="200px">
+            </button>
+            <button onclick="tunaButtonClicked()">
+            <img src="assets/img/tunasalad-button.png" width="200px">
+            </button>
+            <button onclick="beefButtonClicked()">
+            <img src="assets/img/misobeef-button.png" width="200px">
+            </button>
+            <button onclick="shrimpButtonClicked()">
+            <img src="assets/img/shrimp-button.png" width="200px">
+            </button>
+         </div> 
+-->
+         
+ <!--        <div id="onigiri-spine">
+            <button type="button" onclick="tarakoButtonClicked()">tarako</button>  
+            <button onclick="unagiButtonClicked()">
+            <img src="assets/img/unagi-button.png" width="200px">
+            </button>
+            <button onclick="crabButtonClicked()">
+            <img src="assets/img/snowcrab-button.png" width="200px">
+            </button>
+            <button onclick="tunaButtonClicked()">
+            <img src="assets/img/tunasalad-button.png" width="200px">
+            </button>
+            <button onclick="beefButtonClicked()">
+            <img src="assets/img/misobeef-button.png" width="200px">
+            </button>
+            <button onclick="shrimpButtonClicked()">
+            <img src="assets/img/shrimp-button.png" width="200px">
+            </button>
+         </div> 
+         -->
+        <div id="onigiri-spine">
+            <a href="#" class="topping-button">
+                <img onclick="tarakoButtonClicked()" src="assets/img/tarako-button.png" width="200px"></a> 
+            <a href="#" class="topping-button">
+                <img onclick="unagiButtonClicked()" src="assets/img/unagi-button.png" width="200px"></a> 
+            <a href="#" class="topping-button">
+                <img onclick="crabButtonClicked()" src="assets/img/snowcrab-button.png" width="200px"></a> 
+            <a href="#" class="topping-button">
+                <img onclick="tunaButtonClicked()" src="assets/img/tunasalad-button.png" width="200px"></a>
+            <a href="#" class="topping-button">
+                <img onclick="beefButtonClicked()" src="assets/img/misobeef-button.png" width="200px"></a>
+            <a href="#" class="topping-button">
+                <img onclick="shrimpButtonClicked()" src="assets/img/shrimp-button.png" width="200px"></a>
+            
+         </div> 
+         <script type="text/javascript" src="assets/scripts/onigiri.js"></script>
+         
+    </div>
+    </body>
+</html>
